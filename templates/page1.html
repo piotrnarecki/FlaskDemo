@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page1</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style/styles.css') }}">
+
+
+</head>
+<body>
+This is Page1
+
+<p>
+
+    <button>
+        <a href="{{ url_for('hello_world')}}">Go to Home Page</a>
+    </button>
+
+</p>
+
+</body>
+</html>
